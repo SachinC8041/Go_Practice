@@ -21,4 +21,10 @@ func main() {
 		fmt.Println("The candidate is Not Applicable")
 	}
 	fmt.Printf("The name of the person is %s and his age is %d who is standing in place where temperature is %.2f\n", name, age, temperature)
+
+	var x int = 12
+	var y = "Sarang"
+	z := "this is another way to declare functions"
+	fmt.Println("Variable declaration for demo purpose only: ", x, ",", y, ",", z)
+
 }
